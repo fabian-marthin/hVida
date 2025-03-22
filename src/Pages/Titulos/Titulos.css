@@ -1,0 +1,49 @@
+.FondoDiplomas {
+  background: rgb(0 0 0 / 65%);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.logoTitulo{
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Contenedor principal */
+.contenedorDiplomas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedorDiplomas div{
+  display: flex  ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  
+}
+  
+/* Estilos para las imágenes de los diplomas */
+.contenedorDiplomas .titulo {
+  width: 80%;
+  max-width: 400px;
+  margin: 10px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid black;
+}
+  
+/* Efecto hover */
+.contenedorDiplomas .titulo:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+  

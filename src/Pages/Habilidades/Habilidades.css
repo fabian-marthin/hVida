@@ -1,0 +1,65 @@
+/* Fondo principal */
+.FondoHabilidades {
+    display: flex    ;
+    justify-content: center;
+    padding: 110px 0px;
+    flex-wrap: wrap;
+}
+
+/* Estilos para cada tarjeta */
+.FondoHabilidades div {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255 255 255 / 60%);
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+/* Efecto hover en tarjetas */
+.FondoHabilidades div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Imágenes de los proyectos (ahora más grandes) */
+.FondoHabilidades .proyecto {
+    width: 100%;
+    max-width: 600px; /* Tamaño aumentado */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en imágenes */
+.FondoHabilidades .proyecto:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.youtube{
+    width: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.youtube:hover{
+    transform: scale(1.5);
+}
+
+.FondoHabilidades h2{
+    color: black;
+}
+
+/* Estilos para los textos */
+.FondoHabilidades p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000;
+    max-width: 90%;
+}
