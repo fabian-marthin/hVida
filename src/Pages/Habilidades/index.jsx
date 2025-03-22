@@ -1,5 +1,5 @@
 import canva from "./img/canva.png"
-import inventario from "./img/inventarios.png"
+import inventario from "./img/Inventarios.png"
 import localStorage from "./img/localStorage.png"
 import pagCompras from "./img/pagCompras.png"
 import tigo from "./img/Tigo.png"
