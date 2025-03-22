@@ -4,7 +4,7 @@ import localStorage from "./img/localStorage.png"
 import pagCompras from "./img/pagCompras.png"
 import tigo from "./img/Tigo.png"
 
-import fondo from "./img/FondoHabilidades.mp4"
+import fondo from "./img/fondoHabilidades.mp4"
 
 import youtube from "./img/youtube.png"
 
