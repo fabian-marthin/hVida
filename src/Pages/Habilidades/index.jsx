@@ -26,6 +26,7 @@ const Habiliddes = () => {
 
           <div>
             <a  href="https://videojuegobomba.netlify.app/" target="_blank" rel="noopener noreferrer">
+            
               <img className="proyecto" src={canva} alt="proyecto" />
             </a>
             <h2>Descripción del Proyecto</h2>
@@ -33,9 +34,9 @@ const Habiliddes = () => {
               Este proyecto combina JavaScript y Canva para crear una solución interactiva y visualmente atractiva. Utiliza las capacidades de diseño de Canva junto con la programación en JavaScript para desarrollar una experiencia dinámica y funcional,
             </p>
           </div>
-
+        
           <div>
-            <a  href="https://fabian-marthin.github.io/ReactProyect/" target="_blank" rel="noopener noreferrer">
+            <a  href="https://github.com/fabian-marthin/Inventario" target="_blank" rel="noopener noreferrer">
               <img className="proyecto" src={inventario} alt="proyecto" />
             </a>
             <h2>Descripción del Proyecto</h2>
@@ -47,9 +48,9 @@ const Habiliddes = () => {
             </a>
           
           </div>
-
+          
           <div>
-            <a  href="https://github.com/fabian-marthin/Inventario" target="_blank" rel="noopener noreferrer">
+            <a  href="https://fabian-marthin.github.io/ReactProyect/" target="_blank" rel="noopener noreferrer">
               <img className="proyecto" src={localStorage} alt="proyecto" />
             </a>
             <h2>Descripción del Proyecto</h2>
