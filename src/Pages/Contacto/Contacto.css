@@ -5,10 +5,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
 
 .contenedorContacto a{
     text-align: center;
+
 }
 
 .contenedorContacto img{
