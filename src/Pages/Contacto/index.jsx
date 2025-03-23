@@ -1,5 +1,5 @@
 import fondo from "./img/FondoContacto.mp4"
-import whatsApp from "./img/whatsApp.png"
+import whatsApp from "./img/WhatsApp.png"
 import gitHub from "./img/GitHub.png"
 
 import "./Contacto.css"
