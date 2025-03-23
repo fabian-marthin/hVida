@@ -1,0 +1,21 @@
+.contenedorContacto{
+    background: rgba(0 0 0 / 65%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorContacto a{
+    text-align: center;
+}
+
+.contenedorContacto img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.contenedorContacto h2{
+    color: aliceblue;
+}
