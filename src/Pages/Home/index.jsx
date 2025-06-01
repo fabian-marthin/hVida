@@ -1,5 +1,5 @@
 import { useAppContext } from "../../Context/useAppContext";
-import fpresentacion from "./img/fpresentacion.png";
+import fpresentacion from "./img/fPresentacion.png";
 import hVida from "./img/hVida.pdf";
 import "./Home.css"
 
