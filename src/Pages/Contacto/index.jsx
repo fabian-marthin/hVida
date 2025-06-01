@@ -11,7 +11,7 @@ const Contacto = () => {
         
 
         <div className="contenedorContacto">
-          <a href="https://w.app/xrbv1c" target="_blank" rel="noopener noreferrer">
+          <a href="https://walink.co/ecd503" target="_blank" rel="noopener noreferrer">
             <img src={whatsApp} alt="WhatsApp" />
             <h2>WhatsApp</h2>
           </a>
