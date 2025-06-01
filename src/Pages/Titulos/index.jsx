@@ -1,5 +1,4 @@
 import "./Titulos.css"
-import fondo from "./img/FondoTitulos.mp4"
 
 import platzi from "./img/platzi.png"
 import colsubsidio from "./img/ColsubCET.png"
@@ -14,20 +13,17 @@ import diploma7 from "./img/diploma7.jpg"
 import diploma8 from "./img/diploma8.jpg"
 import diploma9 from "./img/diploma9.jpg"
 import diploma10 from "./img/diploma10.jpg"
+import diploma11 from "./img/diploma11.jpg"
+import diploma12 from "./img/diploma12.jpg"
 
 const Titulos = () => {
 
     return (
       <div className="FondoDiplomas">
-        <video autoPlay loop muted className="videoFondo">
-          <source src={fondo} type="video/mp4" />
-          Tu navegador no soporta videos.
-        </video>
 
         <div className="contenedorDiplomas">
           <img className="logoTitulo" src={platzi} alt="" />
           <div>
-
             <img className="titulo" src={diploma1} alt="React.js con Vite y Tailwindcss" />
             <img className="titulo" src={diploma2} alt="Manipulación del Dom" />
             <img className="titulo" src={diploma3} alt="Frontend Developer" />
@@ -37,6 +33,8 @@ const Titulos = () => {
             <img className="titulo" src={diploma7} alt="Creación de páginas Web" />
             <img className="titulo" src={diploma8} alt="Patrones de diseño" />
             <img className="titulo" src={diploma9} alt="React.js" />
+            <img className="titulo" src={diploma11} alt="Power bi" />
+            <img className="titulo" src={diploma12} alt="typescript" />
           </div>
           
           <img className="logoTitulo" src={colsubsidio} alt="" />

@@ -1,5 +1,5 @@
 .contenedorContacto{
-    background: rgba(0 0 0 / 65%);
+    background: rgb(15 23 42);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -17,7 +17,13 @@
 
 .contenedorContacto img{
     border-radius: 50%;
-    margin: 10px;
+    margin: 20px;
+
+    transition: ease-in-out 1s;
+}
+.contenedorContacto img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .contenedorContacto h2{
