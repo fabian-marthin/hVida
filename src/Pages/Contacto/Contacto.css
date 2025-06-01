@@ -1,7 +1,6 @@
 .contenedorContacto{
     background: rgb(15 23 42);
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
