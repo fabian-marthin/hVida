@@ -1,8 +1,7 @@
 import { useAppContext } from "../../Context/useAppContext";
 import fpresentacion from "./img/fPresentacion.png";
-import hVida from "./img/hVida.pdf";
+import hVida from "./img/hvida.pdf";
 import "./Home.css"
-
 
 const Home = () => {
 
@@ -45,8 +44,6 @@ const Home = () => {
       </div>
     </div>
   );
-
-
 };
 
 export default Home;
