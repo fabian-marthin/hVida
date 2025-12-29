@@ -1,6 +1,6 @@
 import { useAppContext } from "../../Context/useAppContext";
 import fpresentacion from "./img/fPresentacion.png";
-import hVida from "./img/hvida.pdf";
+import hVida from "./img/hVida.pdf";
 import "./Home.css"
 
 
@@ -18,7 +18,13 @@ const Home = () => {
             Hola, soy <span className="highlight">Favian Martin</span> 
           </h1>
           <p>
-            Programador especializado en frontend. Me apasiona diseñar software para la gestión y automatización de procesos. Disfruto aprender constantemente y cuento con conocimientos en HTML, CSS y JavaScript, utilizando bibliotecas como React. Además, tengo experiencia en trabajo en equipo con Git y GitHub, formación en Platzi y estudios en MySQL y PHP en el SENA
+            Desarrollador Front End actualmente tengo experiencia en la creación de
+            interfaces y software de usuario eficientes y atractivas de manera
+            educativa. Tengo conocimiento en HTML, CSS, JavaScript, Git y Node.js
+            con blibliotecas como React. Apasionado por el diseño responsive y la
+            mejora continua de la experiencia de usuario. Capaz de trabajar en
+            equipos ágiles, a través de mi experiencia educativa y colaborar
+            eficazmente.
           </p>
           <a href={hVida} download={hVida}>
             <button className="cv-button">Download CV</button>
