@@ -17,13 +17,14 @@ const Home = () => {
             Hola, soy <span className="highlight">Favian Martin</span> 
           </h1>
           <p>
-            Desarrollador Front End actualmente tengo experiencia en la creación de
-            interfaces y software de usuario eficientes y atractivas de manera
-            educativa. Tengo conocimiento en HTML, CSS, JavaScript, Git y Node.js
-            con blibliotecas como React. Apasionado por el diseño responsive y la
-            mejora continua de la experiencia de usuario. Capaz de trabajar en
-            equipos ágiles, a través de mi experiencia educativa y colaborar
-            eficazmente.
+          Tecnólogo en Análisis y Desarrollo de Software en formación en el SENA, con
+conocimientos en desarrollo frontend y backend, bases de datos y construcción
+de APIs. Experiencia práctica adquirida mediante proyecto productivo de software
+empresarial, participando en el diseño, desarrollo e implementación de una
+solución web con backend en C#, frontend en React y base de datos relacional.
+Actualmente inscrito para homologación a Ingeniería de Sistemas, con interés en
+roles Junior Frontend, Backend o Fullstack, alta capacidad de aprendizaje y trabajo
+en equipo.
           </p>
           <a href={hVida} download={hVida}>
             <button className="cv-button">Download CV</button>
