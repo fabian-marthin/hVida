@@ -1,6 +1,6 @@
 import { useAppContext } from "../../Context/useAppContext";
 import fpresentacion from "./img/fPresentacion.png";
-import hVida from "./img/hvida.pdf";
+import hVida from "../../../public/hVida.pdf";
 import "./Home.css"
 
 const Home = () => {
